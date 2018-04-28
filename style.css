@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* początek resetu stylów */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* koniec resetu stylów */
+
+.background {       /* właściwości tła */
+    background: rgba(253, 249, 7, 0.986);
+}
+
+.container {        /* właściwości kontenera, który znajduje się na środku ekranu i ciągnie się przez całą wysokość strony */
+    max-width: 1040px;
+    margin: 0 auto;
+    background: white;
+}
+
+.first-row {        /* właściwości pierwszego wiersza */
+    height: 120px;
+    margin: 0 20px;
+}
+
+h1 {        /* właściwości pierwszego nagłówka */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px;
+    color: red;
+}
+
+.second-row {       /* właściwości drugiego wiersza */
+    height: 240px;
+    background: white;
+}
+
+.first-column {     /* właściwości pierwszej kolumny zawartej w pierwszym wierszu */
+    width: 40%;
+    float: left;
+}
+
+.flag {         /* właściwości flagi */
+    width: 360px;
+    height: 240px;
+    margin-left: 20px;
+    
+}
+
+.second-column {        /* właściwości drugiej kolumny zawartej w pierwszym wierszu */
+    width: 58%;
+    float: right;
+    height: 240px;
+    
+    margin-right: 20px;
+}
+
+.header-box {       /* właściwości boxu, w którym znajduje się nagłówek h2 */
+    height: 40px;
+    background: lightseagreen;
+    border-radius: 10px;
+}
+
+h2 {        /* właściwości nagłówka h2 */
+    text-align: center;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 8px;
+    color: white;
+}
+
+.list-column .button-text a {       /* właściwości boxów, które są przyciskami z listy zawartej w drugiej kolumnie drugiego wiersza */
+    background-color: steelblue;
+    display: inline-block;
+    width: 180px;
+    height: 18px;
+    padding: 10px 20px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.third-row {        /* właściwości trzeciego wiersza, w którym znajdują się loga klubów */
+    width: 100%;
+    background: white;
+    height: 50px;
+}
+
+.list-row {         /* właściwości listy z logami klubów*/
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.info-box {         /* właścwości boxu, w którym będą się wyświetlały dane po wciśnięciu przycisków z listy zawartej w drugiej
+                        kolumnie drugiego wiersza */
+    width: 360px;
+    height: 184px;
+    float: right;
+    margin-top: 12px;
+    background: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.button-image img {         /* właściwości każdego obrazka, które jest logiem klubu */
+    float: right;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.fourth-row {       /* właściwości czwartego wiersza */
+    height: 120px;
+    margin: 0 20px;
+}
+
+.button-text li {       /* właściwości każdego elementu pierwszej listy */
+    width: 220px;
+}
+
+.second-small-row {     /* właściwości mniejszego wiersza, który jest częścią drugiej kolumnyw drugiem wierszu,
+                            zawierającego pierwszą liste i box z danymi */
+    width: 600px;
+    height: 200px;
+    float: left;
+}
+
+.list-column {      /* właściwości kolumny, w której znajduje się pierwsza lista */
+    width: 220px;
+    float: left;
+}
+
+.info-box p {       /* właściwości tekstu zawartego w boxie z danymi */
+    padding: 20px;
+    line-height: 1.2;
+    color: black;
+}
+
