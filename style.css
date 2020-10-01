@@ -30,7 +30,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 2;
 }
 ol, ul {
 	list-style: none;
@@ -60,14 +60,14 @@ table {
 }
 
 .first-row {        /* właściwości pierwszego wiersza */
-    height: 120px;
+    height: 115px;
     margin: 0 20px;
 }
 
 h1 {        /* właściwości pierwszego nagłówka */
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 60px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 500;
     text-align: center;
     padding: 30px;
     color: red;
@@ -79,7 +79,7 @@ h1 {        /* właściwości pierwszego nagłówka */
 }
 
 .first-column {     /* właściwości pierwszej kolumny zawartej w pierwszym wierszu */
-    width: 40%;
+    width: 45%;
     float: left;
 }
 
@@ -91,7 +91,7 @@ h1 {        /* właściwości pierwszego nagłówka */
 }
 
 .second-column {        /* właściwości drugiej kolumny zawartej w pierwszym wierszu */
-    width: 58%;
+    width: 60%;
     float: right;
     height: 240px;
     
